@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import tontsi from './Tontsi.jpg';
 import Header from './Header.js';
+import Footer from './Footer.js';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +9,8 @@ class App extends Component {
     return (
       <div className="App">
           <Header />
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={tontsi} className="Tontsi" alt="" />
+          <Footer />
       </div>
     );
   }

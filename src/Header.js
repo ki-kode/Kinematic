@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import './Header.css';
+
 class Header extends Component {
     render() {
-      return (<div>Your header</div>);
+      return (
+      <div className="headermargin"></div>
+      );
     }
   }
 

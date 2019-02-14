@@ -1,0 +1,7 @@
+.footermargin{
+    clear: both;
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+}
